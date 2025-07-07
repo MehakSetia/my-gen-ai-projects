@@ -15,6 +15,8 @@ output=generator("AI will revolutionise",repetition_penalty=1.5)
 
 print(output[0]['generated_text'])
 
+# ---------------------------------------------------------------------------
+
 generator = pipeline("text-generation", model="gpt2-medium")
 
 
@@ -23,6 +25,8 @@ output = generator("Explain quantum computing:",
                   temperature=0.7,
                    repetition_penalty=1.5)
 print(output[0]['generated_text'])
+
+# ---------------------------------------------------------------------------
 
 from transformers import pipeline
 def generated_text(prompt):
