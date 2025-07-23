@@ -6,7 +6,28 @@ What This Does
 - Avoids repetition with `repetition_penalty=1.5`
 
 
-New Features (Day 2)
+New Features
 - Added automatic file saving
 - Improved generation parameters
 - Organized outputs in /outputs folder
+
+
+---
+
+# Instruction Prompting Practice 🧠
+
+## What This Includes
+- Practice with instruction-based prompts using ChatGPT  
+- Covers tasks like:
+  - Summarization  
+  - Tone conversion  
+  - Grammar correction  
+  - Data extraction  
+  - PII redaction  
+  - Bullet point compression  
+  - Hindi translation with tone preservation  
+
+## Why I’m Doing This
+To learn prompt engineering fundamentals for real-world GenAI applications.
+
+📂 See `Instruction-prompting-practice.md` for all Q&A and evaluations.
